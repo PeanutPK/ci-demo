@@ -1,3 +1,4 @@
+"""Statistics module."""
 from math import sqrt
 
 
@@ -9,7 +10,7 @@ def average(data):
 
 
 def variance(data):
-    """the population variance of a list of numbers in data.
+    """The variance of population list numbers in data.
 
     The variance is the sum of squared differences between data values
     and their mean, divided by the number of items in the list.
@@ -18,10 +19,10 @@ def variance(data):
 
     Example: variance([1,5]) is ((1-3)**2 + (5-3)**2)/2 = 4.
 
-    :param data: list of numbers for which variance will be computed.
+    :param data: List of numbers for which variance will be computed.
     Must contain at least one element.
-    :returns: population variance of values in data list.
-    :raises ValueError: if the data parameter is empty.
+    :returns: Population variance of values in data list.
+    :raises ValueError: If the data parameter is empty.
 
     >>> variance([1])
     0.0
@@ -41,5 +42,5 @@ def variance(data):
 
 
 def stdev(data):
-    """the standard deviation of a list of values"""
+    """The standard deviation values of a lists."""
     return sqrt(variance(data))
