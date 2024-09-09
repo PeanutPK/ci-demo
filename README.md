@@ -1,3 +1,6 @@
+[![Run unit tests](https://github.com/PeanutPK/ci-demo/actions/workflows/unittest.yml/badge.svg)](https://github.com/PeanutPK/ci-demo/actions/workflows/unittest.yml)
+[![flake8](https://github.com/PeanutPK/ci-demo/actions/workflows/flake8.yml/badge.svg)](https://github.com/PeanutPK/ci-demo/actions/workflows/flake8.yml)
+
 Continuous Integration Demo
 ===========================
 
