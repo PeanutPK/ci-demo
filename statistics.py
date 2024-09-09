@@ -10,7 +10,7 @@ def average(data):
 
 
 def variance(data):
-    """The variance of population list numbers in data.
+    """Return the variance of population list numbers in data.
 
     The variance is the sum of squared differences between data values
     and their mean, divided by the number of items in the list.
@@ -42,5 +42,5 @@ def variance(data):
 
 
 def stdev(data):
-    """The standard deviation values of a lists."""
+    """Return the standard deviation values of a lists."""
     return sqrt(variance(data))
