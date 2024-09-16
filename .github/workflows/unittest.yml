@@ -34,4 +34,5 @@ jobs:
         pytest
     - name: Generate a report of coverage
       run: |
+        coverage run -m unittest discover -p "test_*.py"
         coverage report
