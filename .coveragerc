@@ -1,1 +1,2 @@
-branch=True
+branch = True
+cover_pylib = False
