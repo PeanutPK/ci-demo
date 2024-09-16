@@ -3,7 +3,17 @@ from math import sqrt
 
 
 def average(data):
-    """Return the average of a list of numeric values in data."""
+    """Return the average of a list of numeric values in data.
+
+    >>> average([1, 2, 3, 4, 5])
+    3.0
+    >>> average([0])
+    0.0
+    >>> average([])
+    Traceback (most recent call last):
+    ...
+    ValueError: List must contain at least one value
+    """
     if len(data) == 0:
         raise ValueError("List must contain at least one value")
     return sum(data) / len(data)
@@ -32,6 +42,10 @@ def variance(data):
     0.25
     >>> variance([1000000, 1000004])
     4.0
+    >>> variance([])
+    Traceback (most recent call last):
+    ...
+    ValueError: List must contain at least one value
     """
     # ugly code.
     n = len(data)
